@@ -70,7 +70,7 @@ const App = () => {
       </div>
       <div className="main-container">
         <div className="user-container">
-          <h2>Your choice </h2>
+          <h4>Your choice </h4>
           <ChoicesDisplay
             choices={choices}
             playerChoice={playerChoice}
@@ -79,7 +79,7 @@ const App = () => {
           />
         </div>
         <div className="computer-container">
-          <h2>Computer's choice</h2>
+          <h4>Computer's choice</h4>
           <ComputerChoicesDisplay
             choices={choices}
             computerChoice={computerChoice}
