@@ -29,3 +29,9 @@ npm install
 ```bash
 npm start
 ```
+
+Open your browser and visit http://localhost:3000 to play the game.
+
+Feel free to report issues, or suggest improvements!
+
+## Enjoy playing!

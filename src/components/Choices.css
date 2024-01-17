@@ -1,0 +1,36 @@
+.choices-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 0.5rem;
+}
+
+.choice-btn,
+.computer-choice-btn {
+  background-color: #fff;
+  padding: 0.5rem;
+  font-size: 6rem;
+  transition: background-color 0.3s ease;
+
+  @media (max-width: 768px) {
+    font-size: 4.5rem;
+  }
+}
+
+.choice-btn.selected {
+  background-color: #d3e3fc;
+}
+
+.choice-btn:hover {
+  transform: scale(1.1);
+}
+
+.computer-choice-btn {
+  &:hover {
+    transform: none;
+  }
+
+  &.selected {
+    background-color: #e4d4ff;
+  }
+}
